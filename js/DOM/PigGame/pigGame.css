@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+section {
+    padding: 20px;
+    margin: 15px;
+}
+.current {
+    padding: 15px;
+}
+.score-size {
+    font-size: 30px;
+}
+.actionBtn {
+    padding: 15px;
+    border: none;
+    background-color: peru;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 15px;
+    font-weight: bold;
+}
+.player--active {
+    background-color: peru;
+    color: #000;
+}
+.hidden {
+    display: none;
+}
+.diced {
+    text-align: center;
+    font-size: 50px;
+}
+.winner{
+    background-color: green;
+    font-weight: bolder;
+}

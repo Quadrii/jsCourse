@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pigGame.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <button class="new-game actionBtn">New Game</button>
+    </div>
+    <section class="player player--0 player--active" style="text-align: center;">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score score-size" id="score--0">20</p>
+        <div class="current">
+            <p class="current-label">Current</p>
+            <p class="current-score score-size" id="current--0">0</p>
+        </div>
+    </section>
+    <h4 class="hidden diced"></h4>
+    <section class="player player--1" style="text-align: center;">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score score-size" id="score--1">30</p>
+        <div class="current">
+            <p class="current-label">Current</p>
+            <p class="current-score score-size" id="current--1"></p>
+        </div>
+    </section>
+    <div class="btn-wrapper" style="text-align: center;">
+        <button class="btnrollDice actionBtn">Roll Dice</button>
+        <button class="btnhold actionBtn">Hold</button>
+    </div>
+    <script src="pigGame.js"></script>
+</body>
+</html>

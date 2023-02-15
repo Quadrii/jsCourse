@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guess.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header>
+        <div class="header-wrap">
+            <h4>Guess my secret number</h4>
+            <p style="margin-bottom: 10px;">(Between 1 - 20)</p>
+            <button class="reset actionbtn">Again</button> <br>
+            <strong id="number"></strong>
+        </div>
+    </header>
+    <div class="game-wrap">
+        <p class="message">start guessing</p>
+        <p class="scores">score <span class="score"></span></p>
+        <input type="number" id="input"/>
+        <p class="highScores">HighScore: <span class="highscore">0</span></p>
+        <button class="btnCheck actionbtn">Guess</button>
+    </div>
+
+    <script src="guessNumberRefactor.js"></script>
+</body>
+</html>
